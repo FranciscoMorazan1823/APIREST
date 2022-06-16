@@ -9,7 +9,7 @@ services:
             - JWT_SECRET=Awerqw@#$$WER!@#$$!@%ETWWQR@!!asda123
         build: .
         ports: 
-            - "0.0.0.0:3000"
+            - "157.230.99.163:3000"
         links:
             - mongo
     mongo:
